@@ -71,6 +71,22 @@
             }
         },
         {
+            "Key": "4f0e87dc-e240-4d45-950f-7ad0818d3b46",
+            "Value": {
+                "id": "b8781a3e-d5ed-4d9d-9dc3-c6730e821e32",
+                "resourcePath": "sprites\\spr_platform\\spr_platform.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "579ac4cb-05fc-47f8-9af5-c12f10eb4935",
+            "Value": {
+                "id": "d87a89c7-bce9-47c6-9a69-eabe2182598a",
+                "resourcePath": "objects\\obj_platform\\obj_platform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59c9d206-6831-4633-a4db-784aaf501e27",
             "Value": {
                 "id": "15062988-7d6e-4eb6-ab16-5f7bd8e0b550",
@@ -100,6 +116,14 @@
                 "id": "4dfd18af-6b58-4a7a-a0ca-80751098a454",
                 "resourcePath": "views\\75f740f9-d5c0-464d-9cf7-b55ad1c2ad91.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7b52d52a-8886-4a96-9e19-079616ddf44c",
+            "Value": {
+                "id": "529893eb-7007-4ee7-af34-bbef7386cd7b",
+                "resourcePath": "sprites\\spr_boyJump\\spr_boyJump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -159,10 +183,18 @@
             }
         },
         {
+            "Key": "c4db5e77-f637-404f-992d-dd729a72e6fa",
+            "Value": {
+                "id": "85f4d915-8b79-4f55-8954-b0348a21e9ca",
+                "resourcePath": "sprites\\spr_boyWalk\\spr_boyWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c76edcf5-f77a-4d89-9b96-24aa8813a91a",
             "Value": {
                 "id": "203c08f2-485d-4f66-8d19-43d4c02a1f8f",
-                "resourcePath": "sprites\\spr_boy\\spr_boy.yy",
+                "resourcePath": "sprites\\spr_boyIdle\\spr_boyIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -196,6 +228,14 @@
                 "id": "8d61a780-41a5-45db-8265-072f117d9a21",
                 "resourcePath": "views\\e19a5cbf-07ea-4318-9a26-e7e601b8e715.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e6779f00-cde7-417e-8467-d0289a8d2e0a",
+            "Value": {
+                "id": "0a63e5a6-7711-4166-86d6-e165e9f16ce4",
+                "resourcePath": "sprites\\spr_boyDie\\spr_boyDie.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
