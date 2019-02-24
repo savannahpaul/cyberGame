@@ -2,7 +2,7 @@
     "id": "acd9fcbf-fdda-46e1-ab17-2b7ad4ab8ddc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Packet",
+    "name": "obj_Packet",
     "eventList": [
         {
             "id": "97a5d75a-d109-42bb-83c8-b42b24abcdf1",

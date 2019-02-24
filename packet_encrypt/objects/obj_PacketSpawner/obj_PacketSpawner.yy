@@ -2,7 +2,7 @@
     "id": "65a0ae18-885f-403e-a529-ac707e60b25f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "PacketSpawner",
+    "name": "obj_PacketSpawner",
     "eventList": [
         {
             "id": "232cbabe-472e-4b8d-b7c8-9a5faa2007f4",

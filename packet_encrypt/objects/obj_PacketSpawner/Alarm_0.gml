@@ -33,7 +33,7 @@ if (current_packet <= num_packets){
 	equation = string(a) + " " + str_op + " " + string(b) + " mod " + string(c);
 
 
-	newPacket = instance_create_layer(x - irandom(100), y - irandom(100), "Instances", Packet);
+	newPacket = instance_create_layer(x - irandom(100), y - irandom(100), "Instances", obj_Packet);
 	ds_map_add(packet_map, newPacket, sol);
 	newPacket.equation_text = equation;
 }

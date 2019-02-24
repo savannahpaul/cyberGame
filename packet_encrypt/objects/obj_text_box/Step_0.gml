@@ -29,7 +29,7 @@ if(keyboard_check_pressed(vk_enter)){
 	//need to send text to list of packet values to check if it is the correct answer
 	
 	user_guess = floor(real(text));
-	PacketSpawner.guess = user_guess;
+	obj_PacketSpawner.guess = user_guess;
 	
 	keyboard_string = "";
 	text = "";
