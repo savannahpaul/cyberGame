@@ -9,3 +9,8 @@ grav = 0.3;
 
 hp = 5;
 hp_max = 5;
+
+intels_killed = 0;
+
+jumps = 3;
+max_jumps = 300;

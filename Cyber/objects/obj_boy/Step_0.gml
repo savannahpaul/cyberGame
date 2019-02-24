@@ -2,6 +2,19 @@
 // You can write your code in this editor
 
 //-----------------------------------------------------------------
+if(hp <= 0){
+	sprite_index = spr_boyDie;
+	room_goto(room_dead);
+}
+
+var name = room_get_name(room)
+if(name == "room_final"){
+	if(hp <= 3) {
+		hp 	+= .002;
+	}
+	max_jumps = 3;
+}
+
 horizontalSpeed = walkSpeed;
 if( keyboard_check(vk_left) ){ // move left
 	sprite_index = spr_boyWalk;
@@ -36,8 +49,12 @@ if( keyboard_check(vk_left) ){ // move left
 // only jump from ground: place_meeting(x, y+1, obj_platform)
 // double jump logic: on the ground? -> set jump count to max
 // if jump, jump and jump -= 1
-if( keyboard_check_pressed(vk_up)){ // pressed is needed to keep from depleting all
+if( place_meeting(x, y+1, obj_platform)){ // on floor, reset jumps
+	jumps = max_jumps;
+}
+if( keyboard_check_pressed(vk_up) && jumps > 0){ // pressed is needed to keep from depleting all
 	verticalSpeed = jumpVal;
+	jumps--;
 }else if( place_meeting(x, y, obj_platform) ){ // on ground not jumping
 	verticalSpeed = 0;
 }
@@ -59,10 +76,5 @@ if(!(place_meeting(x, y + 1, obj_platform))){
 
 if( keyboard_check_pressed(vk_space)){
 	var bullet = instance_create_layer(x, y-50, "lay_bullets", obj_bullet);
-	bullet.direction =  180*image_angle;
-	bullet.image_angle = bullet.direction;
-}
-if(hp == 0){
-	sprite_index = spr_boyDie;
-	room_goto(room_dead);
+	bullet.direction = point_direction(x, y, x + (5*image_xscale), y);	
 }
