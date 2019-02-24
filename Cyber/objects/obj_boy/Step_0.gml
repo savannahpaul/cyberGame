@@ -36,7 +36,7 @@ if( keyboard_check(vk_left) ){ // move left
 // only jump from ground: place_meeting(x, y+1, obj_platform)
 // double jump logic: on the ground? -> set jump count to max
 // if jump, jump and jump -= 1
-if( keyboard_check_pressed(vk_space)){ // pressed is needed to keep from depleting all
+if( keyboard_check_pressed(vk_up)){ // pressed is needed to keep from depleting all
 	verticalSpeed = jumpVal;
 }else if( place_meeting(x, y, obj_platform) ){ // on ground not jumping
 	verticalSpeed = 0;
@@ -55,4 +55,14 @@ y = y + verticalSpeed;
 
 if(!(place_meeting(x, y + 1, obj_platform))){
 	sprite_index = spr_boyJump;
+}
+
+if( keyboard_check_pressed(vk_space)){
+	var bullet = instance_create_layer(x, y-50, "lay_bullets", obj_bullet);
+	bullet.direction =  180*image_angle;
+	bullet.image_angle = bullet.direction;
+}
+if(hp == 0){
+	sprite_index = spr_boyDie;
+	room_goto(room_dead);
 }
