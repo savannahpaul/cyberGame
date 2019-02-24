@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(room_final);
+room_goto(global.last_level);

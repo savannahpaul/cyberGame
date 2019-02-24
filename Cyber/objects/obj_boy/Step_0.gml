@@ -8,11 +8,13 @@ if(hp <= 0){
 }
 
 var name = room_get_name(room)
-if(name == "room_final"){
+if(name == "room_final" or name == "level_one"){
 	if(hp <= 3) {
 		hp 	+= .002;
 	}
+	if(name == "room_final"){
 	max_jumps = 3;
+	}
 }
 
 horizontalSpeed = walkSpeed;
