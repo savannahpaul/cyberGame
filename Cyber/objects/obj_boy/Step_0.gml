@@ -16,6 +16,9 @@ if(name == "room_final" or name == "level_one"){
 	max_jumps = 3;
 	}
 }
+if(intels_killed == 4){
+	room_goto(room_won);	
+}
 
 horizontalSpeed = walkSpeed;
 if( keyboard_check(vk_left) ){ // move left

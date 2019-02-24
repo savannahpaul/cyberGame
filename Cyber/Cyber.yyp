@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "8ce5d36f-a035-432f-8225-0e94ecace5c0",
+            "Value": {
+                "id": "35f1a1db-04ff-4f99-80b6-0a1145ee7ed0",
+                "resourcePath": "objects\\obj_another_mf_narrator_311\\obj_another_mf_narrator_311.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f7b1e5a-0110-489b-8048-e454bfe7ca09",
             "Value": {
                 "id": "e7dd88e5-f713-4493-a63b-18dd848ac77d",
