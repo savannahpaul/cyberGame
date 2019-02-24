@@ -13,7 +13,7 @@ if (will_i_spawn != 0) {
 } else if (PreGame.game_start) {
 	if (ScoreBoard.myscore >= 2000) {
 		if (!instance_exists(Hacker)) {
-			instance_create_depth(1600,y,1,Hacker);
+			instance_create_depth(1600,y-175,1,Hacker);
 		}
 	} else {
 		if (lane_spawn == 0) {

@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-y -= 250;
+if (PreGame.game_start) {
+	if (y > 400) {
+		y -= 250;
+	}
+}
