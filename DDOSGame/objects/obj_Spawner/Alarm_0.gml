@@ -28,4 +28,4 @@ if (obj_pregame.start_game) {
 }
 
 
-alarm[0] = timer;
+alarm[0] = timer-obj_boi.num_firewalls*15;

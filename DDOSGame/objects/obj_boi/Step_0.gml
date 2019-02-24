@@ -7,12 +7,18 @@ if (obj_pregame.start_game) {
 		bullet.direction = point_direction(x, y, x + (5*image_xscale), y);	
 	}
 
-	if (kills == 3) {
+	if (kills == 5) {
 			instance_create_layer(obj_computer.x, 800, "Instances", obj_firewall);
+			num_firewalls += 1;
 			kills = 0;
 	}
 
 	if (cooldown < 10) {
 		cooldown++;
+	}
+	
+	if (num_firewalls >= 6) {
+		start_game = false;
+		//Next Game Here	
 	}
 }
