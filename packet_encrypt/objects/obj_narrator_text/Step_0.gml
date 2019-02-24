@@ -11,6 +11,10 @@ if (keyboard_check(vk_space) and delay == 5){
 		text_num++;
 	} else {
 		//game started
+		obj_PacketSpawner.start_game = true;
+		obj_text_box.text = "";
+		keyboard_string = "";
+		instance_destroy();
 	}
 
 }
