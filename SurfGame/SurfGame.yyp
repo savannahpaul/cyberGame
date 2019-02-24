@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "c1d78f13-bd77-4158-937c-8f351efd5111",
+            "Value": {
+                "id": "b5a7298a-ebd6-4565-829e-16f546023308",
+                "resourcePath": "objects\\PreGame\\PreGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "20912590-47a1-46c1-af71-98503b88e1e1",

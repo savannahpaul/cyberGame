@@ -6,9 +6,11 @@ object_type = irandom(1);
 
 lane_spawn = irandom(2);
 
+
+
 if (will_i_spawn != 0) {
 
-} else {
+} else if (PreGame.game_start) {
 	if (ScoreBoard.myscore >= 2000) {
 		if (!instance_exists(Hacker)) {
 			instance_create_depth(1600,y,1,Hacker);
