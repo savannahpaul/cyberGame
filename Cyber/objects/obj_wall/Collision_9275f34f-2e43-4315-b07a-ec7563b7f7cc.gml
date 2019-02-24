@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if(place_free(x-1, y)){
+//place_free(x-1, y)
+if(obj_boy.image_xscale == 1){
 	obj_boy.x -= 2.5;
-} else{
+} else {
 	obj_boy.x += 2.5;
 }

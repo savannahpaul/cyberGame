@@ -25,7 +25,7 @@ if ((randomness % 140) == 0) {
 
 if(hp == 0){
 	instance_destroy();
-	enemySpawner.currentKilled++;
+	enemySpawner.current_killed++;
 }
 
 randomness++;
