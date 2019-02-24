@@ -1,6 +1,5 @@
 Binary Boy
 
 To Play Game:
-  Extract executable from Cyber.zip
+  Extract executable from BinaryBoy.zip
   Run
-  
