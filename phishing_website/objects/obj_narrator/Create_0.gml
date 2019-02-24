@@ -1,5 +1,6 @@
 /// @description creation
 text = ds_list_create();
+ds_list_add(text, "Good job defending against the DDoS,\n your computer is now safe behind the firewall.");
 ds_list_add(text, "You need to find a way to get that password,\nIt's time for you to go on the offensive and make your own attack!");
 ds_list_add(text, "A phishing attack is a common way to get user logins.\n This attack uses a fake website to steal the password.")
 ds_list_add(text, "The hacker group already has a website, \nthis will be shown on the left.");
